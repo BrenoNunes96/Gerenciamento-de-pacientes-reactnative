@@ -23,7 +23,7 @@ export default function MedicalChat() {
       const res = await fetch('https://api.cohere.ai/generate', {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer 0fYdk1HpYMLGUfE4qdql4IbnCXgXrQGQi8cQLlQm',
+          'Authorization': 'Bearer',
           'Content-Type': 'application/json',
           'Cohere-Version': '2022-12-06'
         },
